@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>persnalizando links</title>
+    <style>
+        a {
+            color:  aqua;
+            text-decoration: none;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            text-decoration: underline
+        }
+        a:active {
+            color: brown;
+        }
+        a::after {
+            content: '[link]';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>persnalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf" target="_blank">youtube</a></li>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf">site</a></li>
+        <li><a href="https://www.estudonauta.com/cursos/">github</a></li>
+    </ul>
+</body>
+</html>

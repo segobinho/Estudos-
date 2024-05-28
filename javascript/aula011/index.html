@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receba</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: rebeccapurple;
+
+        }
+
+        input {
+            font-size: 30px;
+            border-color: aqua;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>sistemas de nacionaliddades</h1>
+ <p>seu pais </p> <input type="text"  id="p" >
+ <input type="button" value="confimar" onclick="calcular()">
+<div id="res">
+</div>
+
+ <script>
+    function calcular () {
+    var pais = window.document.getElementById('p').value
+    var resultado = window.document.getElementById('res')
+    resultado.innerHTML = `seu pais ${pais}`
+    if (pais == 'brasil') {
+        resultado.innerHTML += `<p>brasilero</p>`
+    } else
+    resultado.innerHTML += `<p>gringgo</p>`
+
+    }
+ </script>
+</body>
+</html>

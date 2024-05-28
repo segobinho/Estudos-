@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+
+body {
+    background-color: rgb(168, 168, 216);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+   color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1#principal{
+    text-align: center;
+}
+
+h2 {
+    color: aquamarine;
+}
+.basico {
+    color: brown;
+}
+ .avancado {
+    color: chocolate;
+ }
+
+.intermediario {
+    color: blueviolet;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em variso dispositivos diferentes ou simplimente aumente e diminua o tamanho do navegador</p>
+    <picture> <!-- sempre criar o source acima ou seja a imagem menor sempre vai acima ou ao contrario -->
+        <source media="(max-width: 750px )" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/Sem título.png
+        " alt="imagem flexivel">
+    </picture>
+    <h1>audio</h1>
+    <p>aprendendo a colocar audio em html</p>
+    <audio src="midia/Tobu - Candyland_IhchfhxvPKI.mp3" controls ></audio>
+    <!--mp3 wav ogg-->
+    <p>sempre usar esses 3 para aumentar a compatibilidade com os navagadores </p>
+    <audio preload="metadata" controls > 
+        <source src="midia/Tobu - Candyland_IhchfhxvPKI.mp3" type="audio/mpeg">
+        <source src="midia/Tobu - Candyland_IhchfhxvPKI.mp3" type="audio/ogg">
+        <source src="midia/Tobu - Candyland_IhchfhxvPKI.mp3" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir o audio. <a href="midia/Tobu - Candyland_IhchfhxvPKI.mp3">clique aqui para baixar</a> </p>
+        <p>usar o loop ex: audio loop . para sempre tocar a misca, não usar wave porque e pessado, o codig sempre tenta carregar o primeiro se n conseguir exibe a mensahem  </p>
+
+    </audio>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color: cadetblue;
+    
+    
+}
+
+section {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 10px black;
+    text-align: center;
+   
+}
+img {
+   margin: auto;
+    width: 100px;
+    height: 100px ;
+    border-radius: 20px;
+    
+}
+header   {
+    color: antiquewhite;text-align: center;
+}
+
+footer {
+   
+    color: antiquewhite;
+    font-style: oblique;
+}
+div {
+    text-align: center;
+}
+   
